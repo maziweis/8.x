@@ -31,6 +31,7 @@ class Person {
 
 class Student extends Person {
     major: string;
+    
 
     studentGreet() {
         return `${this.major}xide${this.name}wenhao`
