@@ -18,7 +18,7 @@ var d = [1, 2, 3];
 var e = true;
 var f = [1, 'hello'];
 var g = 1;
-var i;
+var i;  
 function fun() {
     alert('11');
 }
