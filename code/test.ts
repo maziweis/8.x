@@ -31,7 +31,7 @@ class Person {
 
 class Student extends Person {
     major: string;
-    
+
 
     studentGreet() {
         return `${this.major}xide${this.name}wenhao`
@@ -43,8 +43,8 @@ class Student extends Person {
     }
 }
 
-let person1=new Person('ren');
+let person1=new Person('ren1');
 person1.greet();
 
-let student=new Student('xiaoming','zhexue');
+let student=new Student('xiaoming1','zhexue');
 console.log(student.studentGreet())
